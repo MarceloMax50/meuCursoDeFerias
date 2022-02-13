@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-15T14:54:41.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="wcHxuz2NtMY5acQfXcFf" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-13T17:22:13.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="JLddkk6NEna9GeM-L-By" version="16.4.5" type="github">
   <diagram id="BTvWTTK-OskF5Yp7cwZ_" name="Page-1">
-    <mxGraphModel dx="1108" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="899" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -178,67 +178,67 @@
         <mxCell id="1Ovtjq9R8lrvQR8nFTWf-73" value="Sugestão de&amp;nbsp; EPI" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="2060" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-1" value="Fluxo Pulverização" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-1" value="Fluxo Pulverização" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="240" y="2210" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-4" value="GET /sprays/health" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-2" target="CHjRX5iaACjujJVcwhNr-3">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-4" value="GET /sprays/health" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-2" target="CHjRX5iaACjujJVcwhNr-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-2" value="Iniciar Pulverização no App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-2" value="Iniciar Pulverização no App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="2250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-3" target="CHjRX5iaACjujJVcwhNr-5">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-3" target="CHjRX5iaACjujJVcwhNr-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-3" value="App recebe dados da API SmarSpray com dados de Clima e Desintoxicação do pulverizador" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-3" value="App recebe dados da API SmarSpray com dados de Clima e Desintoxicação do pulverizador" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="2390" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-5" target="CHjRX5iaACjujJVcwhNr-7">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-5" target="CHjRX5iaACjujJVcwhNr-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-5" value="Exibe os dados da API pra o usuário sugerindo o inicio ou não do processo." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-5" value="Exibe os dados da API pra o usuário sugerindo o inicio ou não do processo." style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="2510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-10" value="SIM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-7" target="CHjRX5iaACjujJVcwhNr-9">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-10" value="SIM" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-7" target="CHjRX5iaACjujJVcwhNr-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-12" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.825;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-7" target="CHjRX5iaACjujJVcwhNr-11">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-12" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.825;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-7" target="CHjRX5iaACjujJVcwhNr-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-7" value="Iniciar processo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-7" value="Iniciar processo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="260" y="2610" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-9" target="CHjRX5iaACjujJVcwhNr-13">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-9" target="CHjRX5iaACjujJVcwhNr-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-9" target="CHjRX5iaACjujJVcwhNr-15">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-9" target="CHjRX5iaACjujJVcwhNr-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-9" value="App envia comando para o back iniciar pulverização." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-9" value="App envia comando para o back iniciar pulverização." style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="2620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-11" target="CHjRX5iaACjujJVcwhNr-29">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-11" target="CHjRX5iaACjujJVcwhNr-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-11" value="Menu Principal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-11" value="Menu Principal" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="2370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-13" target="CHjRX5iaACjujJVcwhNr-19">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-13" target="CHjRX5iaACjujJVcwhNr-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-13" value="App exibe tela de acompanhamento da pulverização ao usuário" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-13" value="App exibe tela de acompanhamento da pulverização ao usuário" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="2720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-15" value="Back envia comando para ligar a bomba" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-15" value="Back envia comando para ligar a bomba" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="2620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-19" target="CHjRX5iaACjujJVcwhNr-21">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-19" target="CHjRX5iaACjujJVcwhNr-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-19" value="App recebe dados do PH e status do processo via socket" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-19" value="App recebe dados do PH e status do processo via socket" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="2830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-23" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-21" target="CHjRX5iaACjujJVcwhNr-19">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-23" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-21" target="CHjRX5iaACjujJVcwhNr-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="3000" />
@@ -246,85 +246,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-25" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-21" target="CHjRX5iaACjujJVcwhNr-24">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-25" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-21" target="CHjRX5iaACjujJVcwhNr-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-21" value="Status = completo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-21" value="Status = completo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="2960" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-24" target="CHjRX5iaACjujJVcwhNr-26">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-24" target="CHjRX5iaACjujJVcwhNr-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-24" value="Salva dados da pulverização pra consulta de histórico&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;POST /sprays&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-24" value="Salva dados da pulverização pra consulta de histórico&lt;br&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;POST /sprays&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="2970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-26" target="CHjRX5iaACjujJVcwhNr-11">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-26" target="CHjRX5iaACjujJVcwhNr-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-26" value="Mensagem de confirmação" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-26" value="Mensagem de confirmação" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="2970" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-29" target="CHjRX5iaACjujJVcwhNr-2">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-29" target="CHjRX5iaACjujJVcwhNr-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-29" value="Usuário escolhe processo de pulverização no App" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-29" value="Usuário escolhe processo de pulverização no App" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="2250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-32" value="Fluxo Limpeza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-32" value="Fluxo Limpeza" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="275" y="3130" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-33" value="GET /cleaning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-34" target="CHjRX5iaACjujJVcwhNr-36">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-33" value="GET /cleaning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-34" target="CHjRX5iaACjujJVcwhNr-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-34" value="Iniciar Pulverização no App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-34" value="Iniciar Pulverização no App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="3170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-36" target="CHjRX5iaACjujJVcwhNr-41">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-36" target="CHjRX5iaACjujJVcwhNr-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-36" value="App recebe dados da API SmarSpray com dados Desintoxicação do pulverizador" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-36" value="App recebe dados da API SmarSpray com dados Desintoxicação do pulverizador" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="3340" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-62" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-41" target="CHjRX5iaACjujJVcwhNr-44">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-62" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-41" target="CHjRX5iaACjujJVcwhNr-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-41" target="CHjRX5iaACjujJVcwhNr-63">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-41" target="CHjRX5iaACjujJVcwhNr-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-41" value="Pulverizador Limpo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-41" value="Pulverizador Limpo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="280" y="3530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-44" target="CHjRX5iaACjujJVcwhNr-48">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-44" target="CHjRX5iaACjujJVcwhNr-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-44" target="CHjRX5iaACjujJVcwhNr-49">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-44" target="CHjRX5iaACjujJVcwhNr-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-44" value="App envia comando para o back iniciar desintoxicação." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-44" value="App envia comando para o back iniciar desintoxicação." style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="3540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-46" target="CHjRX5iaACjujJVcwhNr-60">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-46" target="CHjRX5iaACjujJVcwhNr-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-46" value="Menu Principal" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-46" value="Menu Principal" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="3290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-48" target="CHjRX5iaACjujJVcwhNr-51">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-48" target="CHjRX5iaACjujJVcwhNr-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-48" value="App exibe tela de acompanhamento da Limpeza ao usuário" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-48" value="App exibe tela de acompanhamento da Limpeza ao usuário" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="3640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-49" value="Back envia comando para ligar a bomba" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-49" value="Back envia comando para ligar a bomba" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="3540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-51" target="CHjRX5iaACjujJVcwhNr-54">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-51" target="CHjRX5iaACjujJVcwhNr-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-51" value="App recebe dados do PH e status do processo via socket" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-51" value="App recebe dados do PH e status do processo via socket" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="3750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-52" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-54" target="CHjRX5iaACjujJVcwhNr-51">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-52" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-54" target="CHjRX5iaACjujJVcwhNr-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="3920" />
@@ -332,27 +332,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-54" target="CHjRX5iaACjujJVcwhNr-63">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-54" target="CHjRX5iaACjujJVcwhNr-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-67" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CHjRX5iaACjujJVcwhNr-66">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-67" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="CHjRX5iaACjujJVcwhNr-66" vertex="1" connectable="0">
           <mxGeometry x="-0.256" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-54" value="Status = completo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-54" value="Status = completo?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="3880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-60" target="CHjRX5iaACjujJVcwhNr-34">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="CHjRX5iaACjujJVcwhNr-60" target="CHjRX5iaACjujJVcwhNr-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-60" value="Usuário escolhe processo de pulverização no App" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-60" value="Usuário escolhe processo de pulverização no App" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="3170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CHjRX5iaACjujJVcwhNr-63" target="CHjRX5iaACjujJVcwhNr-46">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CHjRX5iaACjujJVcwhNr-63" target="CHjRX5iaACjujJVcwhNr-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CHjRX5iaACjujJVcwhNr-63" value="Exibe mensagem &quot;Pulverizador Desintoxicado&quot;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CHjRX5iaACjujJVcwhNr-63" value="Exibe mensagem &quot;Pulverizador Desintoxicado&quot;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="3540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
